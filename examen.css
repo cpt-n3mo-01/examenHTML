@@ -1,0 +1,527 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+
+
+}
+
+.navbar{
+	width: 	100%;
+	position: fixed;
+	background : linear-gradient(to right,gray,#245468,#071014);
+	height: 70px;
+}
+.navbar-main{
+	width: 	100%;
+	position: fixed;
+	background :none;
+}
+.navbar .max-width{
+	
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 10px auto;
+
+
+}
+.navbar-main .max-width{
+	
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 20px auto;
+
+
+}
+.WORLD{
+	font-size: 30px;
+	font-weight: 500px;
+	color:#CDDFFA;
+}
+
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display:inline-block;
+	margin-left: 30px;	
+	margin-right: 35px;	
+}
+.menu li a{
+
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+
+}
+.menu li a:hover{
+	color:orange;
+}
+.sous-services{
+	position: absolute;
+	display: none;
+}
+.menu li:hover .sous-services{
+	display: block;
+
+}
+.sous-services li{
+	display: block;
+	border: 2px solid cyan;
+	text-align: center;
+	width: 175px;
+	background : linear-gradient(to right,gray,#245468,#071014);
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
+/********************************************************************************************************************************/
+
+.main-page{
+
+	width: 100%;
+
+	height: 625px;
+	background: url('buildings-1851246.jpg');
+	background-size: 100% 625px;
+}
+.main-page-content{
+	justify-content: space-between;
+	display:flex;
+}
+.text-main{
+	margin-top: 530px;
+	margin-left: 37.75%;
+	font-size: 25px;
+	color: #CDDFFA;
+	background-color:none;
+	border-radius: 5px;
+	transition: 1s;
+}
+.text-main a{
+	color: #CDDFFA;
+
+
+}
+.text-main:hover {
+	background : linear-gradient(to right,#071014,#245468,gray);
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 37%;
+}
+.text-main a:hover{
+	color:orange;
+}
+/********************************************************************************************************************************/
+.sect4{
+	padding-top: 80px;
+	height: 550px;
+	display: flex;
+	background: url('receptionists-5975962_960_720.png')no-repeat;
+	background-size: 100% auto;
+}
+.Get-in-touch{
+	display: flex;
+	width: 100%;
+
+}
+.Get-in-touch .div-left{
+	width:50%;
+	padding-right: 20px;
+	justify-content: space-between;
+	display: block;
+}
+.Get-in-touch .div-left .div-top{
+	width: 80%;
+	height:50%;
+	padding-left: 100px;
+	font-size: 25px;
+	word-spacing: 1px;
+	line-height: 50px;
+	color:orange;
+}
+.Get-in-touch .div-left .div-bottom{
+	margin-left: 100px;
+	width: 100%;
+	height:50%;
+}
+.Get-in-touch .div-left .div-top .Get{
+	font-style: bold;
+	color:#245468;
+	font-size: 30px;
+
+	font-weight: 600;
+}
+
+
+.sect4 table img{
+	height:70px;
+	width:70px;
+}
+.sect4 table {
+	font-size: 20px;
+	font-size: 25px;
+	color:white;
+}
+.Get-in-touch .div-right{
+	width:50%;
+	display:block;
+
+}
+.Get-in-touch .div-right .Get{
+	
+	color:#071014;
+	font-size: 30px;
+	font-weight: 600;
+}
+input{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	border:2px solid gray;
+}
+.Button{
+	padding: 5px 10px 30px 10px; 
+	border-radius: 10px;
+	background-color: #CDDFFA;
+	height: 40px;
+	margin-top: 20px;
+	color:black;
+	transition: 1s;
+}
+.Button :hover{
+	background: black;
+	color:#CDDFFA;
+}
+textarea{
+	border:2px solid gray;
+	font-size: 20px;
+}
+/********************************************************************************************************************************/
+.marquevoiture{
+	background: url('steering-wheel-801994_960_720.jpg')no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+.BMW{
+	padding-top: 150px;
+	height: 500px;
+	display: flex;
+}
+.BMW-content{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.BMW-content .left{
+	display: flex;
+	width: 50%;
+	height: 450px;
+	margin-right: 20px;
+	margin-left: 30px;
+
+}
+.BMW-content .left img{
+	border-radius: 300px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+.BMW-content .right{
+	margin-top: 45px;
+	display: block;
+	width: 40%;
+	background-color: #071014;
+	height: 350px;
+	margin-right: 30px;
+	border-radius: 10px;
+	word-spacing: 10px;
+}
+.BMW-content .right .nom-marque p{
+	margin-left: 41%;
+	color: orange;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.BMW-content .right .text-marque{
+	color:#CDDFFA;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px 20px 10px 20px;
+
+}
+.collection{
+	background : linear-gradient(to right,#071014,#245468,gray);
+	margin-left: 30%; 
+	font-size: 20px;
+	height: 40px;
+	margin-right:23%;
+	padding-left: 20px;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+.collection a{
+	color: #CDDFFA;
+}
+.collection a:hover{
+	color: orange;
+}
+/********************************************************************************************************************************/
+.FORD{
+	padding-top: 50px;
+	height: 500px;
+	display: flex;
+	
+}
+.FORD-content{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.FORD-content .right{
+	display: flex;
+	width: 50%;
+	height: 450px;
+	margin-right: 30px;
+	margin-left: 150px;
+}
+.FORD-content .right img{
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px gray;
+}
+.FORD-content .left{
+	margin-top: 45px;
+	display: block;
+	width: 50%;
+	background-color: #071014;
+	height: 350px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.FORD-content .left .nom-marque p{
+	margin-left: 41%;
+	color: orange;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.FORD-content .left .text-marque{
+	color:#CDDFFA;
+	font-size: 20px;
+	word-spacing: 20px;
+	text-align: justify;
+	padding: 10px 20px 10px 20px;
+
+}
+/********************************************************************************************************************************/
+.TOYOTA{
+	padding-top: 150px;
+	height: 500px;
+	display: flex;
+	
+}
+.TOYOTA-content{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.TOYOTA-content .left{
+	display: flex;
+	width: 60%;
+	height: 450px;
+	margin-right: 20px;
+	margin-left: 30px;
+}
+.TOYOTA-content .left img{
+	border-radius: 500px;
+	width: 470px;
+	height: 470px;
+	border: 10px solid gray;
+	box-shadow: 10px 10px 10px 10px black;
+}
+.TOYOTA-content .right{
+	margin-top: 45px;
+	display: block;
+	width: 40%;
+	background-color: #071014;
+	height: 350px;
+	margin-right: 30px;
+	border-radius: 10px;
+	word-spacing: 10px;
+}
+.TOYOTA-content .right .nom-marque p{
+	margin-left: 37%;
+	color: orange;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.TOYOTA-content .right .text-marque{
+	color:#CDDFFA;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px 20px 10px 20px;
+
+}
+/********************************************************************************************************************************/
+.MERCEDES{
+	padding-top: 50px;
+	height: 500px;
+	display: flex;
+	
+}
+.MERCEDES-content{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.MERCEDES-content .right{
+	display: flex;
+	width: 50%;
+	height: 450px;
+	margin-right: 30px;
+	margin-left: 150px;
+}
+.MERCEDES-content .right img{
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px gray;
+}
+.MERCEDES-content .left{
+	margin-top: 45px;
+	display: block;
+	width: 50%;
+	background-color: #071014;
+	height: 350px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.MERCEDES-content .left .nom-marque p{
+	margin-left: 41%;
+	color: orange;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.MERCEDES-content .left .text-marque{
+	color:#CDDFFA;
+	font-size: 20px;
+	word-spacing: 20px;
+	text-align: justify;
+	padding: 10px 20px 10px 20px;
+
+}
+
+/********************************************************************************************************************************/
+.last-thing-bottom{
+
+	height:70px;
+	background : linear-gradient(to right,#071014,#245468,gray);
+	text-align: center;
+}
+.last-thing-bottom p {
+	color:gray;
+	font-size:20px;
+	padding-top: 20px;
+}
+.last-thing-bottom p span{
+	color:orange;
+}
+/********************************************************************************************************************************/
+.main{
+	display: flex;
+	height: : 600px;
+	margin-bottom: 80px;
+	
+}
+.main img{
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px gray;
+}
+.nomvoiture{
+	margin-left: 23%;
+	color: orange;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.textvoiture{
+	color:#CDDFFA;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px 10px 10px 10px;
+}
+.left1{
+	margin-top: 90px;
+	width: 30%;
+	height: 500px;
+	margin-left: 20px;
+	display:block;
+	border-radius: 10px;
+}
+.left1 .left1-top{
+	display: flex;
+	height: 30%;
+	width:100%;
+	margin-bottom: 60px;
+
+}
+.left1 .left1-bottom{
+	display:block;
+	height: 70%;
+	width:100%;
+	background-color:#071014;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+.center{
+	margin-left: 44px;
+	margin-right: 44px;
+	width: 30%;
+	height: 500px;
+	margin-top: 90px;
+	display:block;
+	border-radius: 10px;
+}
+.center .center-top{
+	display: flex;
+	height: 30%;
+	width:100%;
+	margin-bottom: 60px;
+
+}
+.center .center-bottom{
+	display:block;
+	height: 70%;
+	width:100%;
+	background-color:#071014;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+.right1{
+	margin-right:20px;
+	margin-top: 90px;
+	width: 30%;
+	height: 500px;
+	display:block;
+	border-radius: 10px;
+}
+.right1 .right-top{
+	display: flex;
+	height: 30%;
+	width:100%;
+	margin-bottom: 60px;
+
+}
+.right1 .right1-bottom{
+	margin-top: 5px;
+	display:block;
+	height: 70%;
+	width:100%;
+	background-color:#071014;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px black;
+}
